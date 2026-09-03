@@ -9,7 +9,7 @@ export default function Home() {
     <main style={{ padding: "40px", fontFamily: "sans-serif" }}>
       <h1>Calnan Property Listings</h1>
       <p>Mock practice app — property listings page</p>
-      <p>Total: {properties.length} properties</p>
+      <p>Total: {properties.length} properties</p> · Updated via PR
 
       <div style={{ marginTop: "24px" }}>
         {properties.map((property) => (
